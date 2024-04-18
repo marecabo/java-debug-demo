@@ -1,10 +1,10 @@
-package com.project.my.example;
+package com.project.my.other;
 
 import tech.tablesaw.api.Table;
 
-public class Main {
+public class Other {
 
-	public static void main(String args[]) {
+	public static void doSth() {
 
 		Table table = Table.create("Hello World");
 
