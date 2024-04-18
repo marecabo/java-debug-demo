@@ -256,7 +256,9 @@
 	*/
    @Override
    public String toString() {
-	 return print();
+     String result = print();
+     result = result + "\n" + result;
+     return result; // ! place breakpoint here and debug Main.java
    }
  
    /** Returns a 'pretty-printed' string representation of this entire relation. */
